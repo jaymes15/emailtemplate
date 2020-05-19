@@ -1,0 +1,25 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body{
+	font-family:'Lucida Sans Unicode', sans-serif;
+}
+
+</style>
+</head>
+<body>
+
+<h2>{{hello}}</h2>
+
+<div class="card">
+  <img src="{% static 'mailtemplate/img_avatar.png' %}" alt="Card image" >  
+    <h4 style="color:red"><b>John Doe</b></h4> 
+    <p>Architect & Engineer</p> 
+  </div>
+</div>
+
+</body>
+</html> 	  					
